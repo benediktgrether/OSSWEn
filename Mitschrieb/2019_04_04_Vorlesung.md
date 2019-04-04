@@ -8,3 +8,48 @@
 
 Repository vs Arbeitskopie !! **Wichtig**
 siehe Seite 25
+
+
+Repo Anlegen
+
+```
+svnadmin create Repository
+```
+
+Checkout
+``` shell
+svn checkout file:///Users/..../Repository/ .
+```
+
+Arbeitskopie aktualisieren
+```
+svn update
+```
+
+Änderungen vornehmen
+```
+svn status
+```
+
+```
+svn add brief.txt
+```
+
+```
+svn status
+```
+
+Änderungen veröffentlichen
+```
+svn commit -m "brief hinzugefügt"
+```
+
+LOG-Message
+```
+svn log brief.txt
+```
+
+### Arbeitszyklus
+
+siehe Seite 32
+
